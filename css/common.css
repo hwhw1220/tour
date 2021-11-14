@@ -11,15 +11,18 @@ body { font-family:'Malgun Gothic','맑은 고딕',sans-serif; font-size:16px; l
 
 #header { height:113px; background:rgba(0,0,0,0.5);
     position:fixed; top:0; left:0; width:100%; 
-    z-index:9999; transition:all 0.5s;
+    z-index:999999999; 
+    transition:all 0.5s;
 }
+#header.bgc { background:rgba(0,0,0,1); }
+
 #header .header_area { display:flex; 
     justify-content: space-between; 
 }
 #header .header_area h1 { padding-top:20px }
 #header .header_area h1 a {display:block; width:270px; height:50px; text-indent:-9999px; overflow:hidden; background:url(../img/logo.png) no-repeat; 
-background-size:contain;
-background-position:center top; 
+background-size:contain; 
+background-position:center top;
 }
 
 /* 햄버거버튼 */
@@ -90,3 +93,16 @@ footer .foot_area .snslink li:nth-child(3) a {background:url(../img/ico_instargr
 .to_top {text-align:center; background:#fff;}
 .to_top a {display:block; height:45px; box-sizing:border-box; text-indent:-9999px; overflow:hidden; border-left:1px solid #a3a3a3; border-bottom:1px solid #a3a3a3; background:url(../img/ico_totop.png) no-repeat center; background-size:50%; }
 
+/* 서브페이지 상단구역 스타일 */
+.location_area {
+    height:445px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom; 
+}
+.location_area h2.tit_page {padding:250px 0 0 0; 
+    border-bottom:1px solid #ccc; 
+    font:30px "Arial Narrow"; color:#fff; letter-spacing:3px;}
+.location_area h2.tit_page .in {font-variant: small-caps;}    
+.location_area p.location {padding:20px 0 0 0px; color:#fff;}
+.location_area p.location .path {display:inline-block; padding:0 10px;}

@@ -1,5 +1,5 @@
-* { margin:0; padding:0; box-sizing:border-box; outline:none }
-a { text-decoration:none; color:inherit; }
+* { margin:0; padding:0; box-sizing:border-box; }
+a { text-decoration:none; color:inherit; outline:none }
 img { max-width:100%; vertical-align:middle; 
     border:none; }
 ul { list-style:none }    

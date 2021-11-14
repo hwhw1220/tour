@@ -44,13 +44,14 @@
     .appbbs_box { display:block; border-top:1px solid #ddd }
     .appbbs_box .app_line { display:none }
     .appbbs_box .bbs_line { width:100% }
-    .appbbs_box .bbs_line h3 {
-        padding-top:30px}
-    
+    .appbbs_box .bbs_line h3 { padding-top:30px }
+
+
     .popupCont {
         width:90%;
-        margin-Left:-45%;
-    }    
+        margin-left:-45%;
+    }
+
 
 
 }

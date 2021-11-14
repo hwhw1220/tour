@@ -2,7 +2,7 @@
 @media screen and (min-width:801px) and (max-width:1064px) {
 
     .row { max-width:1064px; margin:0 auto; padding-left:20px; padding-right:20px }
-
+    
     #header .header_cont nav .gnb > li { padding-left:40px; 
         position:relative }
 
@@ -27,6 +27,9 @@
 
     #container .row,
     #footer .row { padding-left:20px; padding-right:20px }
+
+    .miniSld img { width:100%; padding:0 0px }
+
 
     #header.on {  background:#31353d; }
 
@@ -173,13 +176,13 @@
 }
 
 
-
 @media screen and (max-width:420px) {
-    
-    #header .header_area h1 a { height:28px }
+
+    #header .header_area h1 a { height:28px; }
+
     .quick_area .quick_list li a {display:block; position:relative; 
         border-top:1px solid #4d4d4d; color:#fff;
-        padding:40px 0px 15px 0px;
+        padding:40px 0px 15px 0px; 
         text-align:center;
         background-repeat:no-repeat;
         background-position:center 15px;
@@ -187,7 +190,4 @@
     }
 
 
-
 }
-
-
